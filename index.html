@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Online Vote</title>
+</head>
+
+<body>
+    <h1>Online Vote</h1>
+    <hr>
+    <br>
+
+    <input type="text" name="name" placeholder="Enter your name" id="name">
+    <br><br>
+    <input type="number" age="age" placeholder="Enter your age" id="age">
+
+    <br>
+
+    <h3>Nationality:</h3>
+
+    <select name="nationality" id="nationality">
+        <option name="South African">South African</option>
+        <option name="Foreigner">Foreigner</option>
+    </select>
+
+    <br>
+
+    <h3>Selct a political party:</h3>
+
+    <select name="party" id="party">
+        <option>ANC</option>
+        <option>DA</option>
+        <option>EFF</option>
+        <option>IFP</option>
+
+
+    </select>
+
+    <br><br>
+
+    <button onclick="vote()">VOTE</button>
+
+
+    <hr>
+
+    <br><br>
+
+    <h3>Total number of vote</h3>
+
+    <p>ANC : <span id="ancTotal">0</span></p>
+    <p>DA : <span id="daTotal">0</span></p>
+    <p>EFF : <span id="effTotal">0</span></p>
+    <p>IFP : <span id="ifpTotal">0</span></p>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
